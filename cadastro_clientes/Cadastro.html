@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <header>
+        <h1>LOJA</h1>
+    </header>
+    <section>
+        <div class="meio">
+            <h2>Criar seu cadastro</h2>
+            <h3>veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :)</h3>
+            <p style="color: red;">*</p><p>campos obrigatorios</p>
+        </div>
+        <div>
+            <form action="Cadastro.html" method="post">
+             <div>
+                <label>Nome Completo</label><br>
+                <input class="text_input" type="text"  required  name="Nome" >
+             </div>
+             <div class="genero">
+                <br>
+                <label>Gênero</label>
+                <br>
+                <span>pra gente te conhecer um pouquinho melhor :)</span>
+                <br>
+                <input class="input_button" type="radio" name="genero" id="">feminino
+                <input class="input_button" type="radio" name="genero" id="">masculino
+                <input class="input_button" type="radio" name="genero" id="">não informar
+             </div>
+             <div>
+                <br>
+                <label>Data de Nascimento</label>
+                <br>
+                <span>necessário pra identificar a maioridade, no formato DD/MM/AAAA</span>
+                <br>
+                <input class="text_input_date" maxlength="10" required  placeholder="__/__/____" type="text" name="data" id="">
+             </div> 
+             <div>
+                <br>
+                <label>CPF</label>
+                <br>
+                <span>necessário pra emissão das Notas Fiscais</span>
+                <br>
+                <input class="text_input_cpf" placeholder="___.___.___-__" required  type="text" name="cpf" id="">
+             </div> 
+             <a href="Cadastro.html">   é pessoa jurídica? conheça a area de empresas</a>
+             <div>
+                <br>
+                <label>Telefone</label>
+                <br>
+                <span>caso a gente precise entrar em contato sobre seus pedidos</span>
+                <br>
+                <input class="text_input_tel"  placeholder="(__)_____-____" type="tel" name="telefone" id="">
+             </div> 
+             <div>
+                <input class="input_btn" type="checkbox" name="checkwhatsapp" id="">
+                <label>Receber notificações por whatsapp</label>
+             </div>   
+             <div>
+               <br>
+                <label>e-mail</label>
+                <br>
+                <input class="text_input"  type="email" name="email" id="">
+             </div> 
+             <div>
+                <input class="input_btn" type="checkbox" name="checkemail" id="">
+                <label>receber e-mails promocionais</label>
+             </div>   
+             <div>
+                <br>
+                <label>Senha</label>
+                <br>
+                <span>precisa ter entre 6 e 20 caracteres</span>
+                <br>
+                <input class="text_input_password" type="password" name="senha" id="">
+             </div> 
+             <div>
+                <br>
+                <input class="input_btn" type="checkbox" name="checkemail" id="">
+                <label>compartilhar meus dados com parceiros para ter conteúdos personalizados, veja</label>
+                <a href="Cadastro.html">como funciona.</a>
+             </div> 
+             <br>
+             <div id="btn">
+             <button type="submit">criar seu cadastro</button>
+            </div>
+            </form>
+        </div>
+       <section class="final"> 
+        <div>
+        <p>
+            Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, você concorda com a nossa
+            <a href="Politica_priv.html">Politica de privacidade</a>
+        </p>
+      </div>
+      <div>
+        <p>
+            já tem cadastro?
+            <a href="Entrar.html">entrar</a>
+        </p>
+      </div>
+   </section>
+    </section>
+</body>
+</html>
