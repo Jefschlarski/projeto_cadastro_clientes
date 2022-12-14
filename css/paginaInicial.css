@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    
+}
+
+.left_bar{
+    width: 20%;
+    height: 100%;
+    background-color: #dbd9d9;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: #535151;
+}
+
+.menu_content a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+#icon_clientes{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#text_clientes{
+    font-weight:bolder
+}
+#icon_user{
+    width: 40px;
+}
+.right_content{
+    width: 100%;
+    height: 95%;
+}
+.usuario{
+   height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 20px;
+  justify-content: end;
+}
+
+
+.usuario a {
+  margin: 0px 0px 0px 20px;
+  text-decoration:none;
+  color: black;
+}
+
+.clientes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f3f3;
+  height: 100%;
+}
+
+
+.topo_clientes{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.tabela_clientes{
+    width: 98%;
+   
+}
+.topo_tabela{
+    background-color: #535151;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.tabela{
+    border-collapse: collapse;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #f3f3f3;
+    
+}
+.conteudo_tabela{
+    background-color: white;
+    color: black;
+    height: 50px;
+    border-bottom: #dbd9d9 2px solid;
+}
+
+.criarBtn{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #73446b;
+    border: 1px solid black;
+}
+
+.btnEditar{
+    padding: 10px;
+    text-decoration: none;
+    background: #73446b;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/pagina_login.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <section>
+        <div class="conteudo">
+            <div class="logo">
+                <img src="/imgs/img1.png" alt="">
+            </div>
+            
+            <div class="formulario">
+                
+                <form action="/php/validar_login.php" method="post">
+                <h4 class="bemvindo">Bem-vindo</h4>
+                <label  for="email">E-mail</label><br>
+                <input class="input" type="email" name="email" placeholder="Email@email.com.br" id="cx_form" required><br>
+                <label  for="senha">Senha</label><br>
+                <input class="input" type="password" name="senha" placeholder="digite a senha" id="cx_form" required><br>
+                <input class="input_button" type="submit" value="Login">
+                </form>
+                <a id="btnCadastro" href="/pages/pagina_registro.php">cadastre-se</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

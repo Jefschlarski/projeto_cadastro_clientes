@@ -1,0 +1,139 @@
+
+.tabela1{
+    background-color: white;
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 95%;
+}
+.topo{
+    background-color: #535151;
+    color: white;
+    height: 40px;
+    font-weight: bolder;
+}
+.topo td{
+    padding-left: 10px;
+}
+.conteudoTabela2{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.conteudoTabela3{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+}
+.conteudoTabela2 td{
+    margin: 10px; 
+}
+.conteudoTabela3 td{
+    margin: 10px; 
+}
+.conteudoTabela2 td input{
+    width: 241px;
+    padding: 10px;
+    display: flex;
+}
+.conteudoTabela3 td input{
+    width: 241px;
+    padding: 10px;
+    display: flex;
+}
+#radio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 241px;
+    align-items: center;
+}
+#radio div{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: center;
+}
+
+#ativo{
+    margin-left: 13px;
+    margin-bottom: 2px;
+}
+
+#feminino{
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+#inativo{
+    margin-top: 2px;
+}
+
+#masculino{
+    margin-bottom: 2px;
+    
+}
+
+#dateHeigth{
+    height: 39px;
+}
+
+.btnAlterar td{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding-bottom: 10px; 
+}
+.btns a{
+    margin-left: 5px;
+}
+
+
+
+.inputAlterar{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid black;
+    height: 50px;
+    width: 120px;
+    color: white;
+    background-color: #73446b;
+    cursor: pointer;
+    position: relative;
+    left: 460px;
+}
+.inputAlterar:hover{
+    background-color: #487344;
+}
+
+#deletar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid black;
+    height: 50px;
+    width: 120px;
+    color: white;
+    background-color: #73446b;
+    cursor: pointer;
+    position: absolute;
+    top: 405px;
+    left: 1035px;
+}
+
+#deletar:hover{
+    
+    background-color: #734444;
+    
+}
+#campocpf{
+    background-color: white;
+}
+
